@@ -9,11 +9,12 @@ In this project, I utilized Azure Sentinel, a cloud-native security information 
 ### Setting up Honeypot Environment
 1. Utilized an Azure Subscription to create a Virtual Machine environment acting as a honeypot.
 
+![12](https://github.com/ericktafel1/AzureHoneypot/assets/97417443/64424bec-d1ab-4a4a-957d-9a937de246c9)
 
 
 2. Configured the environment to attract global attackers and capture their activities.
 
-
+![36](https://github.com/ericktafel1/AzureHoneypot/assets/97417443/c983c73a-7f71-4a7b-8ce3-510b52bfaf89)
 
 
 ### Log Analysis and Visualization
@@ -22,6 +23,14 @@ In this project, I utilized Azure Sentinel, a cloud-native security information 
 3. Developed a PowerShell script to extract IP addresses from Windows logs.
 4. Sent the extracted IP addresses to a 3rd party API to obtain geographic data.
 5. Visualized the geographic data on a heat map using Azure Sentinel.
+
+![43](https://github.com/ericktafel1/AzureHoneypot/assets/97417443/83d59928-f41b-4f84-b108-6a272f285f1c)
+
+![46](https://github.com/ericktafel1/AzureHoneypot/assets/97417443/dbfc0fd5-7e92-4d3b-a516-9d4c33e8fe24)
+
+![47](https://github.com/ericktafel1/AzureHoneypot/assets/97417443/1101c5e3-17df-4ac5-8e63-8888212ab4eb)
+
+![53](https://github.com/ericktafel1/AzureHoneypot/assets/97417443/ec497794-98d2-41cd-b7e9-92cde8e2ceba)
 
 One thing to note is that during the project, I hit the daily API request limit of 1,000 requests provided by ipgeolocation.io. As a result, the IP address from Iran couldn't be converted to geographic data.
 
