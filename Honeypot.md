@@ -1,12 +1,8 @@
 # Azure Honeypot with Log Analytics Workspace and Sentinel SIEM
 
----
-
 ## Introduction
 
 In this project, I utilized Azure Sentinel, a cloud-native security information and event management (SIEM) service, to create a live cyber attack heat map. The objective was to leverage Azure services to monitor and visualize global cyber attacks in real time. By setting up a honeypot environment on Azure and analyzing log data with Azure Sentinel, I aimed to track attacker data and visualize their geographic locations on a map.
-
----
 
 ## Methodology
 
